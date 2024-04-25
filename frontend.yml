@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: konnipatiindupriya/three-tier-app:${version}
+        image: konnipatiindupriya/three-tier-app:VERSION
         ports:
         - containerPort: 3000
 ---
